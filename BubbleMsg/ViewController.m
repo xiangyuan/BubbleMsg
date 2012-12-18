@@ -68,15 +68,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"view load.");
 	// Do any additional setup after loading the view, typically from a nib.
     _messages = [[NSArray alloc] initWithObjects:
                  @"Hello, 大家好.",
-                 @"I'm great, how are you?",
-                 @"I'm fine, thanks. Up for dinner tonight?",
-                 @"Glad to hear. No sorry, I have to work.",
-                 @"Oh that sucks. A pitty, well then - have a nice day..Oh that sucks. A pitty, well then - have a nice day..Oh that sucks. A pitty, well then - have a nice day..Oh that sucks. A pitty, well then - have a nice day.."
-                 @"Thanks! You too. Cuu soon.Oh that sucks. A pitty, well then - have a nice day..",
+                 @"众里寻他千百度，那人却在灯火阑珊处。",
+                 @"你就扯吧，大人呀，这个是不对的。",
+                 @"oh 天呀，这个是你吗？不敢相信的啊。",
+                 @"Thanks 明天我们再侃吧"
+                 @"花开彼岸本无岸，魂落忘川犹在川，醉里不知烟波浩，梦中依稀灯火寒.花叶千年不相见,缘尽缘生舞翩迁-曼珠沙华",
                  nil];
     _mTableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 
